@@ -14,6 +14,7 @@ deploy:
     branch: source
 before_script:
   - "npm i -g gatsby"
+  - "npm i -g gh-pages"
   - "npm i"
 script:
   - "npm run test"
