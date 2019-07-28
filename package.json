@@ -13,7 +13,7 @@
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d public"
+    "deploy": "npm run predeploy && gh-pages -b master -d public"
   },
   "dependencies": {
     "gatsby": "^2.13.39",
