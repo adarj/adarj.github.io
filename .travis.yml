@@ -4,19 +4,17 @@ node_js:
 cache:
   directories:
     - node_modules
+before_script:
+  - "npm i -g gatsby"
+  - "npm i"
+script:
+  - "npm run test"
 deploy:
   provider: pages
   skip-cleanup: true
   github-token: $GITHUB_TOKEN
   local_dir: public
+  target_branch: master
   keep-history: true
   on:
     branch: source
-before_script:
-  - "npm i -g gatsby"
-  - "npm i -g gh-pages"
-  - "npm i"
-script:
-  - "npm run test"
-after_success:
-  - "npm run deploy"
