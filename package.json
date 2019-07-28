@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "adarj.github.io",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Portfolio website for Akil Darjean",
   "version": "0.1.0",
   "license": "MIT",
   "homepage": "https://adarj.github.io",
@@ -21,11 +21,6 @@
   "devDependencies": {
     "prettier": "^1.18.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  }
+  "repository": "github:adarj/adarj.github.io",
+  "bugs": "https://github.com/adarj/adarj.github.io/issues"
 }
