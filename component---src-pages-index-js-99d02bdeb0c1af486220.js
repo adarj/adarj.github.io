@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{189:function(e,l,n){"use strict";n.r(l);var t=n(0),a=n.n(t),r=n(191);l.default=function(){return a.a.createElement("div",null,a.a.createElement(r.Helmet,null,a.a.createElement("title",null,"Akil Darjean - Software Developer")),a.a.createElement("div",null,"Hello, world!"))}}}]);
-//# sourceMappingURL=component---src-pages-index-js-99d02bdeb0c1af486220.js.map
