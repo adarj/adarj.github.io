@@ -1,11 +1,9 @@
 import React from "react"
-import { Helmet } from "react-helmet"
+import Layout from "../components/Layout"
 
 export default () => (
-  <div>
-    <Helmet>
-      <title>Akil Darjean - Software Developer</title>
-    </Helmet>
+  <>
+    <Layout />
     <div>Hello, world!</div>
-  </div>
+  </>
 )
