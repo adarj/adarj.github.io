@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero renders correctly 1`] = `
+<div
+  className="sc-bwzfXH ivqze"
+>
+  <div
+    className="sc-bdVaJa sc-htpNat doXHcr"
+    style={
+      Object {
+        "backgroundPositionY": "center",
+      }
+    }
+  />
+  <div
+    className="sc-bdVaJa sc-bxivhb kXyaSD"
+    color="#000"
+    opacity={0.6}
+  >
+    <div>
+      <h1>
+        Hello, world!
+      </h1>
+    </div>
+  </div>
+</div>
+`;
