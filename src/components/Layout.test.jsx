@@ -1,11 +1,12 @@
 import React from "react"
 import renderer from "react-test-renderer"
+import "jest-styled-components"
 
-import SEO from "../SEO"
+import Layout from "./Layout"
 
-describe("SEO", () => {
+describe("Layout", () => {
   it("renders correctly", () => {
-    const tree = renderer.create(<SEO />).toJSON()
+    const tree = renderer.create(<Layout />).toJSON()
     expect(tree).toMatchSnapshot()
   })
 })
