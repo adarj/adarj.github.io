@@ -1,3 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Layout renders correctly 1`] = `null`;
+exports[`Layout renders correctly 1`] = `
+<Fragment>
+  <SEO />
+  <GlobalStyleComponent />
+</Fragment>
+`;
