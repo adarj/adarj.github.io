@@ -24,6 +24,7 @@
     "react-lazy-hero": "^2.0.0",
     "react-typography": "^0.16.19",
     "styled-components": "^4.3.2",
+    "tailwind.macro": "^0.5.10",
     "typography": "^0.16.19",
     "typography-theme-moraga": "^0.16.19"
   },
@@ -38,7 +39,8 @@
     "jest": "^24.8.0",
     "jest-styled-components": "^6.3.3",
     "prettier": "^1.18.2",
-    "react-test-renderer": "^16.8.6"
+    "react-test-renderer": "^16.8.6",
+    "tailwindcss": "^1.0.6"
   },
   "repository": "github:adarj/adarj.github.io",
   "bugs": "https://github.com/adarj/adarj.github.io/issues"
