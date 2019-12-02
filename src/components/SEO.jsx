@@ -2,7 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 
 const SEO = () => {
-  const title = "Akil Darjean - Software Developer"
+  const title = "Akil Darjean"
 
   return (
     <Helmet>
