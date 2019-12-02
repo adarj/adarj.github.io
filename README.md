@@ -1,4 +1,4 @@
-# adarj.github.io
+# [adarj.github.io](https://adarj.github.io)
 
 Personal website created with GatsbyJS and React
 
