@@ -1,7 +1,7 @@
 {
   "name": "adarj.github.io",
   "private": true,
-  "description": "Portfolio website for Akil Darjean",
+  "description": "Personal website created with GatsbyJS and React",
   "version": "0.1.0",
   "license": "MIT",
   "homepage": "https://adarj.github.io",
