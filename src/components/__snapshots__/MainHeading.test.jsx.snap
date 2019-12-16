@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main Heading renders correctly 1`] = `
+<Fragment>
+  <styled.h1>
+    Akil Darjean
+  </styled.h1>
+  <styled.h2>
+    Software Developer
+  </styled.h2>
+</Fragment>
+`;
