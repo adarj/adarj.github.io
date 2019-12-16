@@ -24,7 +24,7 @@
     "react-lazy-hero": "^2.0.0",
     "react-typography": "^0.16.19",
     "styled-components": "^4.4.1",
-    "tailwind.macro": "^0.5.10",
+    "tailwind.macro": "^1.0.0-alpha.10",
     "typography": "^0.16.19",
     "typography-theme-moraga": "^0.16.19"
   },
