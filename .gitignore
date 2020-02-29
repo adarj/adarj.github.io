@@ -70,3 +70,6 @@ yarn-error.log
 
 # Cypress video files
 cypress/videos/
+
+# Cypress screenshot files
+cypress/screenshots/
