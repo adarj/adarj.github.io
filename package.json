@@ -32,6 +32,7 @@
     "babel-jest": "^24.9.0",
     "babel-plugin-styled-components": "^1.10.6",
     "babel-preset-gatsby": "^0.2.26",
+    "cypress": "^4.1.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.15.1",
     "enzyme-to-json": "^3.4.3",
