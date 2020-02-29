@@ -8,8 +8,8 @@ const Border = styled.div`${tw`border-solid border-white border-2 lg:p-32 lg:py-
 
 const MainHeading = () => (
   <Border>
-    <Title>Akil Darjean</Title>
-    <Subtitle>Software Developer</Subtitle>
+    <Title data-cy="title">Akil Darjean</Title>
+    <Subtitle data-cy="subtitle">Software Developer</Subtitle>
   </Border>
 );
 
