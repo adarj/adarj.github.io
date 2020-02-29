@@ -11,8 +11,7 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "cy:run": "cypress run",
-    "test": "jest && start-server-and-test start http://localhost:8000/ cy:run"
+    "test": "jest && npm start & cypress run"
   },
   "dependencies": {
     "gatsby": "^2.18.12",
@@ -48,7 +47,6 @@
     "jest-styled-components": "^6.3.4",
     "prettier": "^1.19.1",
     "react-test-renderer": "^16.12.0",
-    "start-server-and-test": "^1.10.8",
     "tailwindcss": "^1.1.4"
   },
   "repository": "github:adarj/adarj.github.io",
