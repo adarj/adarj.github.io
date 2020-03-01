@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-describe('Heading', () => {
+describe('Main Heading', () => {
   it('displays correctly', () => {
     cy.visit('/');
     cy.get('[data-cy=title]').contains('Akil Darjean');
