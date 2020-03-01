@@ -3,9 +3,9 @@ import Hero from 'react-lazy-hero';
 import styled from 'styled-components';
 import tw from 'tailwind.macro';
 
-const Title = styled.h1`${tw`text-white`};`;
-const Subtitle = styled.h2`${tw`text-white`};`;
-const Border = styled.div`${tw`border-solid border-white border-2 lg:p-32 lg:py-8 p-16 py-4`};`;
+const Title = styled.h1`${tw`text-white m-0 mb-6 text-6xl font-normal`};`;
+const Subtitle = styled.h2`${tw`text-white m-0 text-3xl`};`;
+const Border = styled.div`${tw`border-solid border-white border-3 lg:p-32 lg:py-8 p-6 py-4`};`;
 
 const MainHeading = (props) => {
   const title = "Akil Darjean";
