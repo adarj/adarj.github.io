@@ -1,4 +1,9 @@
 import React from 'react';
+import styled from 'styled-components';
+import tw from 'tailwind.macro';
+
+const Heading = styled.h1`${tw`m-20`};`;
+const Text = styled.p`${tw`m-20`};`;
 
 const AboutMe = () => {
   const heading = "About Me";
@@ -16,10 +21,10 @@ const AboutMe = () => {
                "interdum nulla ornare at.";
 
   return (
-    <div class="section">
-      <h1 data-cy="about-me-heading">{heading}</h1>
-      <p>{text}</p>
-    </div>
+    <>
+      <Heading data-cy="about-me-heading">{heading}</Heading>
+      <Text>{text}</Text>
+    </>
   );
 };
 
