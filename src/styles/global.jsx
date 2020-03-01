@@ -17,5 +17,8 @@ const GlobalStyle = createGlobalStyle`
   a {
     text-decoration: none;
   }
+  .section {
+    margin: 50px;
+  }
 `;
 export default GlobalStyle;
