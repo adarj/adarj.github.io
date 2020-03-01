@@ -1,4 +1,5 @@
 import React from 'react';
+import Hero from 'react-lazy-hero';
 import styled from 'styled-components';
 import tw from 'tailwind.macro';
 
@@ -21,10 +22,10 @@ const AboutMe = () => {
                "interdum nulla ornare at.";
 
   return (
-    <>
+    <Hero opacity={0.0} minHeight="100vh">
       <Heading data-cy="about-me-heading">{heading}</Heading>
       <Text>{text}</Text>
-    </>
+    </Hero>
   );
 };
 
