@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactPageScroller from 'react-page-scroller';
 
 // Components
 import Layout from '../components/Layout';
@@ -11,7 +12,9 @@ import heroBg from '../images/hero-bg.jpg';
 export default () => (
   <>
     <Layout />
-    <MainHeading heroBg={heroBg}/>
-    <AboutMe />
+    <ReactPageScroller>
+      <MainHeading heroBg={heroBg}/>
+      <AboutMe />
+    </ReactPageScroller>
   </>
 );
