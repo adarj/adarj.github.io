@@ -7,3 +7,10 @@ describe('Main Heading', () => {
     cy.get('[data-cy=subtitle]').contains('Software Developer');
   });
 });
+
+describe('About Me', () => {
+  it('displays correctly', () => {
+    cy.visit('/');
+    cy.get('[data-cy=about-me-heading]').contains('About Me');
+  });
+});
