@@ -1,16 +1,13 @@
 import React from 'react';
-import Hero from 'react-lazy-hero';
 import styled from 'styled-components';
 import tw from 'tailwind.macro';
 
-const Box = styled.div`${tw`mx-20 text-center`};`;
+const Box = styled.div`${tw`mx-20 mt-20 mb-32`};`;
 
 const Section = (props) => (
-  <Hero opacity={0.0} minHeight="100vh">
-    <Box class="container">
-      {props.children}
-    </Box>
-  </Hero>
+  <Box class="container">
+    {props.children}
+  </Box>
 );
 
 export default Section;
