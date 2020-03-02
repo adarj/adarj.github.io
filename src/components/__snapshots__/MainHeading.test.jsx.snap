@@ -20,7 +20,9 @@ exports[`Main Heading renders correctly 1`] = `
     </styled.h1>
     <styled.h2
       data-cy="subtitle"
-    />
+    >
+      Lorem Ipsum
+    </styled.h2>
   </styled.div>
 </LazyHero>
 `;
