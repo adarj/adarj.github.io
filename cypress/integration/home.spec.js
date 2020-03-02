@@ -13,4 +13,8 @@ describe('Home Page', () => {
   it('About Me displays correctly', () => {
     cy.get('[data-cy=about-me-heading]').contains('About Me');
   });
+
+  it('Experience displays correctly', () => {
+    cy.get('[data-cy=experience-heading]').contains('Experience');
+  });
 });
