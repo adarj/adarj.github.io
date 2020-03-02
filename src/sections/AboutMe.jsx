@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from '../components/Section'
 
-const heading = "About Me";
+const heading = "ABOUT ME";
 const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
              "Etiam id lacus eu enim tristique pulvinar. Aliquam " +
              "hendrerit risus in quam porta ultricies. Duis eget nisl " +
