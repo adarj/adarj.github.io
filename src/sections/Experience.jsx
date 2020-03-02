@@ -19,7 +19,7 @@ const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
 const Experience = () => (
   <Section>
     <h2 data-cy="experience-heading">{heading}</h2>
-    <p data-cy="experience-text">{text}</p>
+    <p>{text}</p>
   </Section>
 );
 

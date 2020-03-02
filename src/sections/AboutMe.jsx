@@ -19,7 +19,7 @@ const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
 const AboutMe = () => (
   <Section>
     <h2 data-cy="about-me-heading">{heading}</h2>
-    <p data-cy="about-me-text">{text}</p>
+    <p>{text}</p>
   </Section>
 );
 
