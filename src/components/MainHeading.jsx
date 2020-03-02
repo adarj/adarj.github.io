@@ -12,7 +12,7 @@ const MainHeading = (props) => {
   const subtitle = "Software Developer";
 
   return (
-    <Hero imageSrc={props.heroBg} color="#000" opacity={0.6} minHeight="100vh">
+    <Hero imageSrc={props.image} color="#000" opacity={0.6} minHeight="100vh">
       <Border>
         <Title data-cy="title">{title}</Title>
         <Subtitle data-cy="subtitle">{subtitle}</Subtitle>

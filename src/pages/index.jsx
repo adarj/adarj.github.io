@@ -13,7 +13,7 @@ export default () => (
   <>
     <Layout />
     <ReactPageScroller>
-      <MainHeading heroBg={heroBg}/>
+      <MainHeading image={heroBg}/>
       <AboutMe />
     </ReactPageScroller>
   </>
