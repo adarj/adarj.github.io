@@ -12,10 +12,10 @@ script:
   - "npm run build"
 deploy:
   provider: pages
-  skip-cleanup: true
-  github-token: $GITHUB_TOKEN
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
   local_dir: public
   target_branch: master
-  keep-history: true
+  keep_history: true
   on:
     branch: source
