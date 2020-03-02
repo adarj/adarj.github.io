@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactPageScroller from 'react-page-scroller';
 
 // Components
 import Layout from '../components/Layout';
@@ -14,10 +13,8 @@ const title = "Akil Darjean";
 export default () => (
   <>
     <Layout title={title} />
-    <ReactPageScroller>
-      <Hero />
-      <AboutMe />
-      <Experience />
-    </ReactPageScroller>
+    <Hero />
+    <AboutMe />
+    <Experience />
   </>
 );
