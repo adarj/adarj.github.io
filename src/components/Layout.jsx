@@ -2,9 +2,9 @@ import React from 'react';
 import SEO from './SEO';
 import GlobalStyle from '../styles/global';
 
-const Layout = () => (
+const Layout = (props) => (
   <>
-    <SEO />
+    <SEO title={props.title} />
     <GlobalStyle />
   </>
 );
