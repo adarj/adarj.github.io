@@ -8,9 +8,11 @@ import Layout from '../components/Layout';
 import Title from '../sections/Title';
 import AboutMe from '../sections/AboutMe';
 
+const title = "Akil Darjean";
+
 export default () => (
   <>
-    <Layout />
+    <Layout title={title} />
     <ReactPageScroller>
       <Title />
       <AboutMe />
