@@ -5,7 +5,7 @@ import Section from './Section';
 
 describe('Section', () => {
   it('renders correctly', () => {
-    const tree = shallow(<Section heading="Test Section" text="lorem ipsum." />);
+    const tree = shallow(<Section><p>Hello, world!</p></Section>);
     expect(tree).toMatchSnapshot();
   });
 });

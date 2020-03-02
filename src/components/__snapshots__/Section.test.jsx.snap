@@ -1,25 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Section renders correctly 1`] = `
-<LazyHero
-  color="#fff"
-  isCentered={true}
-  isFixed={false}
-  minHeight="100vh"
-  opacity={0}
-  parallaxOffset={0}
-  transitionDuration={600}
-  transitionTimingFunction="ease-in-out"
+<styled.div
+  class="container"
 >
-  <styled.h1
-    data-cy="about-me-heading"
-  >
-    Test Section
-  </styled.h1>
-  <styled.p
-    data-cy="about-me-text"
-  >
-    lorem ipsum.
-  </styled.p>
-</LazyHero>
+  <p>
+    Hello, world!
+  </p>
+</styled.div>
 `;
