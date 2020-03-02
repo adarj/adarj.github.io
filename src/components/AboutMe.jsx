@@ -24,7 +24,7 @@ const AboutMe = () => {
   return (
     <Hero opacity={0.0} minHeight="100vh">
       <Heading data-cy="about-me-heading">{heading}</Heading>
-      <Text>{text}</Text>
+      <Text data-cy="about-me-text">{text}</Text>
     </Hero>
   );
 };
