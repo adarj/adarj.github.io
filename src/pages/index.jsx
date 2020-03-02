@@ -3,8 +3,10 @@ import ReactPageScroller from 'react-page-scroller';
 
 // Components
 import Layout from '../components/Layout';
-import MainHeading from '../components/MainHeading';
-import AboutMe from '../components/AboutMe';
+
+// Sections
+import MainHeading from '../sections/MainHeading';
+import AboutMe from '../sections/AboutMe';
 
 // Images
 import heroBg from '../images/hero-bg.jpg';
