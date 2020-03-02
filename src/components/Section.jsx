@@ -2,14 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 import tw from 'tailwind.macro';
 
-const Heading = styled.h1`${tw`m-20`};`;
-const Text = styled.p`${tw`m-20`};`;
+const Box = styled.div`${tw`mx-20 my-40 text-center`};`;
 
 const Section = (props) => (
-  <>
-    <Heading data-cy="about-me-heading">{props.heading}</Heading>
-    <Text data-cy="about-me-text">{props.text}</Text>
-  </>
+  <Box class="container">
+    {props.children}
+  </Box>
 );
 
 export default Section;
