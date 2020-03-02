@@ -2,7 +2,9 @@
 
 exports[`Layout renders correctly 1`] = `
 <Fragment>
-  <SEO />
+  <SEO
+    title="John Doe"
+  />
   <GlobalStyleComponent />
 </Fragment>
 `;
