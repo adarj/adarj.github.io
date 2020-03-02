@@ -3,6 +3,7 @@
 exports[`Main Heading renders correctly 1`] = `
 <LazyHero
   color="#000"
+  imageSrc="test-file-stub"
   isCentered={true}
   isFixed={false}
   minHeight="100vh"
@@ -15,13 +16,11 @@ exports[`Main Heading renders correctly 1`] = `
     <styled.h1
       data-cy="title"
     >
-      Akil Darjean
+      John Doe
     </styled.h1>
     <styled.h2
       data-cy="subtitle"
-    >
-      Software Developer
-    </styled.h2>
+    />
   </styled.div>
 </LazyHero>
 `;

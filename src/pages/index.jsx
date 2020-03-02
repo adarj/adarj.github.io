@@ -5,17 +5,14 @@ import ReactPageScroller from 'react-page-scroller';
 import Layout from '../components/Layout';
 
 // Sections
-import MainHeading from '../sections/MainHeading';
+import Title from '../sections/Title';
 import AboutMe from '../sections/AboutMe';
-
-// Images
-import heroBg from '../images/hero-bg.jpg';
 
 export default () => (
   <>
     <Layout />
     <ReactPageScroller>
-      <MainHeading image={heroBg} />
+      <Title />
       <AboutMe />
     </ReactPageScroller>
   </>
