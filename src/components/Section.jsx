@@ -6,7 +6,7 @@ const Box = styled.div`${tw`mx-20 mt-20 mb-32`};`;
 const Header = styled.h2`${tw`uppercase`};`;
 
 const Section = (props) => (
-  <Box class="container">
+  <Box>
     <Header>{props.header}</Header>
     {props.children}
   </Box>
