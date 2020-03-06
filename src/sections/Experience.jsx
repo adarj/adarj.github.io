@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from '../components/Section'
 
-const header = "Experience";
+const heading = "EXPERIENCE";
 const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
              "Etiam id lacus eu enim tristique pulvinar. Aliquam " +
              "hendrerit risus in quam porta ultricies. Duis eget nisl " +
@@ -16,7 +16,8 @@ const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
              "interdum nulla ornare at.";
 
 const Experience = () => (
-  <Section header={header}>
+  <Section>
+    <h2 data-cy="experience-heading">{heading}</h2>
     <p>{text}</p>
   </Section>
 );

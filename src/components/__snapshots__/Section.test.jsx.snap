@@ -2,7 +2,6 @@
 
 exports[`Section renders correctly 1`] = `
 <styled.div>
-  <styled.h2 />
   <p>
     Hello, world!
   </p>
