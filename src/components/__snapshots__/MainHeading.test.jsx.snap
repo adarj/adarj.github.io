@@ -24,5 +24,16 @@ exports[`Main Heading renders correctly 1`] = `
       Lorem Ipsum
     </styled.h2>
   </styled.div>
+  <styled.div>
+    <FaEnvelope
+      data-cy="email-link"
+    />
+    <FaGithub
+      data-cy="github-link"
+    />
+    <FaLinkedin
+      data-cy="linkedin-link"
+    />
+  </styled.div>
 </LazyHero>
 `;
