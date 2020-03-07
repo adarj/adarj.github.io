@@ -9,6 +9,7 @@ before_script:
   - "npm i"
 script:
   - "npm run test"
+  - "(npm start & wait-on http://localhost:8000) && npm run cy:test"
   - "npm run build"
 deploy:
   provider: pages

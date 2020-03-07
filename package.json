@@ -11,8 +11,8 @@
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "unittest": "jest",
-    "test": "jest && (npm start & cypress run --record)"
+    "cy:test": "cypress run --record",
+    "test": "jest"
   },
   "dependencies": {
     "gatsby": "^2.19.29",
@@ -48,7 +48,8 @@
     "jest-styled-components": "^6.3.4",
     "prettier": "^1.19.1",
     "react-test-renderer": "^16.13.0",
-    "tailwindcss": "^1.2.0"
+    "tailwindcss": "^1.2.0",
+    "wait-on": "^4.0.1"
   },
   "repository": "github:adarj/adarj.github.io",
   "bugs": "https://github.com/adarj/adarj.github.io/issues"
