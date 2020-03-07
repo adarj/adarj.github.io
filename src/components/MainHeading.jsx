@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from 'react-lazy-hero';
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
+
 import styled from 'styled-components';
 import tw from 'tailwind.macro';
 
@@ -16,9 +17,9 @@ const MainHeading = (props) => (
       <Subtitle data-cy="subtitle">{props.subtitle}</Subtitle>
     </Border>
     <Links>
-      <FaEnvelope data-cy="email-link" />
-      <FaGithub data-cy="github-link" />
-      <FaLinkedin data-cy="linkedin-link" />
+      <a target="_blank" href={props.links["email"]}><FaEnvelope data-cy="email-link" /></a>
+      <a target="_blank" href={props.links["github"]}><FaGithub data-cy="github-link" /></a>
+      <a target="_blank" href={props.links["linkedin"]}><FaLinkedin data-cy="linkedin-link" /></a>
     </Links>
   </Hero>
 );
