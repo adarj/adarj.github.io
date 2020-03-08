@@ -25,15 +25,27 @@ exports[`Main Heading renders correctly 1`] = `
     </styled.h2>
   </styled.div>
   <styled.div>
-    <FaEnvelope
-      data-cy="email-link"
-    />
-    <FaGithub
-      data-cy="github-link"
-    />
-    <FaLinkedin
-      data-cy="linkedin-link"
-    />
+    <a
+      target="_blank"
+    >
+      <FaEnvelope
+        data-cy="email-link"
+      />
+    </a>
+    <a
+      target="_blank"
+    >
+      <FaGithub
+        data-cy="github-link"
+      />
+    </a>
+    <a
+      target="_blank"
+    >
+      <FaLinkedin
+        data-cy="linkedin-link"
+      />
+    </a>
   </styled.div>
 </LazyHero>
 `;

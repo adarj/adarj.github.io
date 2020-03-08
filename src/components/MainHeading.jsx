@@ -17,9 +17,9 @@ const MainHeading = (props) => (
       <Subtitle data-cy="subtitle">{props.subtitle}</Subtitle>
     </Border>
     <Links>
-      <a target="_blank" href={props.links["email"]}><FaEnvelope data-cy="email-link" /></a>
-      <a target="_blank" href={props.links["github"]}><FaGithub data-cy="github-link" /></a>
-      <a target="_blank" href={props.links["linkedin"]}><FaLinkedin data-cy="linkedin-link" /></a>
+      <a target="_blank" href={props.email}><FaEnvelope data-cy="email-link" /></a>
+      <a target="_blank" href={props.github}><FaGithub data-cy="github-link" /></a>
+      <a target="_blank" href={props.linkedin}><FaLinkedin data-cy="linkedin-link" /></a>
     </Links>
   </Hero>
 );
