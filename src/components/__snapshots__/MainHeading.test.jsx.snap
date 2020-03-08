@@ -25,27 +25,36 @@ exports[`Main Heading renders correctly 1`] = `
     </styled.h2>
   </styled.div>
   <styled.div>
-    <a
-      target="_blank"
+    <ContextProvider
+      value={
+        Object {
+          "color": "white",
+          "size": "1.50em",
+        }
+      }
     >
-      <FaEnvelope
-        data-cy="email-link"
-      />
-    </a>
-    <a
-      target="_blank"
-    >
-      <FaGithub
-        data-cy="github-link"
-      />
-    </a>
-    <a
-      target="_blank"
-    >
-      <FaLinkedin
-        data-cy="linkedin-link"
-      />
-    </a>
+      <styled.a
+        target="_blank"
+      >
+        <FaEnvelope
+          data-cy="email-link"
+        />
+      </styled.a>
+      <styled.a
+        target="_blank"
+      >
+        <FaGithub
+          data-cy="github-link"
+        />
+      </styled.a>
+      <styled.a
+        target="_blank"
+      >
+        <FaLinkedin
+          data-cy="linkedin-link"
+        />
+      </styled.a>
+    </ContextProvider>
   </styled.div>
 </LazyHero>
 `;
