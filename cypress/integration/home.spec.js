@@ -29,8 +29,12 @@ describe('Home Page', () => {
     cy.get('[data-cy=experience-heading]').contains('EXPERIENCE');
   });
 
-  it('Certifications displays correctly', () => {
-    cy.get('[data-cy=certifications-heading]').contains('CERTIFICATIONS');
+  it('Skills displays correctly', () => {
+    cy.get('[data-cy=skills-heading]').contains('SKILLS');
+  });
+
+  it('Certificates displays correctly', () => {
+    cy.get('[data-cy=certificates-heading]').contains('CERTIFICATES');
   });
 
   it('Projects displays correctly', () => {

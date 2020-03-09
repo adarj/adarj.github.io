@@ -7,6 +7,7 @@ import Layout from '../components/Layout';
 import Hero from '../sections/Hero';
 import AboutMe from '../sections/AboutMe';
 import Experience from '../sections/Experience';
+import Skills from '../sections/Skills';
 import Certificates from '../sections/Certificates';
 import Projects from '../sections/Projects';
 
@@ -18,6 +19,7 @@ export default () => (
     <Hero />
     <AboutMe />
     <Experience />
+    <Skills />
     <Certificates />
     <Projects />
   </>

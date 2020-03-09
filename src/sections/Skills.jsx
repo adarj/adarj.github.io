@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from '../components/Section'
 
-const heading = "CERTIFICATES";
+const heading = "SKILLS";
 const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
              "Etiam id lacus eu enim tristique pulvinar. Aliquam " +
              "hendrerit risus in quam porta ultricies. Duis eget nisl " +
@@ -15,12 +15,13 @@ const text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. " +
              "ex condimentum pellentesque. Nunc auctor magna orci, id " +
              "interdum nulla ornare at.";
 
-const Certificates = () => (
+const Skills = () => (
   <Section>
-    <h2 data-cy="certificates-heading">{heading}</h2>
+    <h2 data-cy="skills-heading">{heading}</h2>
     <p>{text}</p>
   </Section>
 );
 
-export default Certificates;
+export default Skills;
+
 
