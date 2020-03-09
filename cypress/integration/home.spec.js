@@ -32,4 +32,8 @@ describe('Home Page', () => {
   it('Certifications displays correctly', () => {
     cy.get('[data-cy=certifications-heading]').contains('CERTIFICATIONS');
   });
+
+  it('Projects displays correctly', () => {
+    cy.get('[data-cy=projects-heading]').contains('PROJECTS');
+  });
 });

@@ -8,6 +8,7 @@ import Hero from '../sections/Hero';
 import AboutMe from '../sections/AboutMe';
 import Experience from '../sections/Experience';
 import Certifications from '../sections/Certifications';
+import Projects from '../sections/Projects';
 
 const title = "Akil Darjean";
 
@@ -18,5 +19,6 @@ export default () => (
     <AboutMe />
     <Experience />
     <Certifications />
+    <Projects />
   </>
 );
