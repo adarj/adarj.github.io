@@ -35,18 +35,21 @@ exports[`Main Heading renders correctly 1`] = `
     >
       <styled.a
         data-cy="email-link"
+        href="mailto:john.doe@mail.com"
         target="_blank"
       >
         <FaEnvelope />
       </styled.a>
       <styled.a
         data-cy="github-link"
+        href="https://github.com"
         target="_blank"
       >
         <FaGithub />
       </styled.a>
       <styled.a
         data-cy="linkedin-link"
+        href="https://linkedin.com"
         target="_blank"
       >
         <FaLinkedin />
