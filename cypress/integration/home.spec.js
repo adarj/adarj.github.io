@@ -6,8 +6,8 @@ describe('Home Page', () => {
   });
 
   it('Hero displays correctly', () => {
-    cy.get('[data-cy=title]').contains('AKIL DARJEAN');
-    cy.get('[data-cy=subtitle]').contains('SOFTWARE DEVELOPER');
+    cy.get('[data-cy=title]').contains('Akil Darjean');
+    cy.get('[data-cy=subtitle]').contains('Software Developer');
   });
 
   it('Links resolve to correct address', () => {
