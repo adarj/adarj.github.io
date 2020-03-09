@@ -20,9 +20,9 @@ const MainHeading = (props) => (
     </Border>
     <Links>
       <IconContext.Provider value={{ color: "white", size: "1.50em" }}>
-        <Link target="_blank" href={props.email}><FaEnvelope data-cy="email-link" /></Link>
-        <Link target="_blank" href={props.github}><FaGithub data-cy="github-link" /></Link>
-        <Link target="_blank" href={props.linkedin}><FaLinkedin data-cy="linkedin-link" /></Link>
+        <Link target="_blank" href={props.email} data-cy="email-link"><FaEnvelope /></Link>
+        <Link target="_blank" href={props.github} data-cy="github-link"><FaGithub /></Link>
+        <Link target="_blank" href={props.linkedin} data-cy="linkedin-link"><FaLinkedin /></Link>
       </IconContext.Provider>
     </Links>
   </Hero>
