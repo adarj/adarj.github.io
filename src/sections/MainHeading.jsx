@@ -1,5 +1,5 @@
 import React from 'react';
-import MainHeading from '../components/MainHeading';
+import Hero from '../components/Hero';
 import heroBg from '../images/hero-bg.jpg';
 
 const text = {
@@ -13,7 +13,7 @@ const links = {
   linkedin: "https://linkedin.com/in/adarj"
 };
 
-const Hero = () => (
+const Header = () => (
   <MainHeading image={heroBg} {...text} {...links} />
 );
 

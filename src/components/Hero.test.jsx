@@ -1,7 +1,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 
-import MainHeading from './MainHeading';
+import Hero from './Hero';
 import heroBg from '../images/hero-bg.jpg';
 
 const text = {
@@ -15,9 +15,9 @@ const links = {
   linkedin: "https://linkedin.com"
 };
 
-describe('Main Heading', () => {
+describe('Hero', () => {
   it('renders correctly', () => {
-    const tree = shallow(<MainHeading image={heroBg} {...text} {...links} />);
+    const tree = shallow(<Hero image={heroBg} {...text} {...links} />);
     expect(tree).toMatchSnapshot();
   });
 });
