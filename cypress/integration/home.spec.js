@@ -28,4 +28,8 @@ describe('Home Page', () => {
   it('Experience displays correctly', () => {
     cy.get('[data-cy=experience-heading]').contains('EXPERIENCE');
   });
+
+  it('Certifications displays correctly', () => {
+    cy.get('[data-cy=certifications-heading]').contains('CERTIFICATIONS');
+  });
 });

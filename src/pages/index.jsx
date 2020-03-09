@@ -6,7 +6,8 @@ import Layout from '../components/Layout';
 // Sections
 import Hero from '../sections/Hero';
 import AboutMe from '../sections/AboutMe';
-import Experience from '../sections/Experience'
+import Experience from '../sections/Experience';
+import Certifications from '../sections/Certifications';
 
 const title = "Akil Darjean";
 
@@ -16,5 +17,6 @@ export default () => (
     <Hero />
     <AboutMe />
     <Experience />
+    <Certifications />
   </>
 );
