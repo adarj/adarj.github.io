@@ -34,25 +34,22 @@ exports[`Main Heading renders correctly 1`] = `
       }
     >
       <styled.a
+        data-cy="email-link"
         target="_blank"
       >
-        <FaEnvelope
-          data-cy="email-link"
-        />
+        <FaEnvelope />
       </styled.a>
       <styled.a
+        data-cy="github-link"
         target="_blank"
       >
-        <FaGithub
-          data-cy="github-link"
-        />
+        <FaGithub />
       </styled.a>
       <styled.a
+        data-cy="linkedin-link"
         target="_blank"
       >
-        <FaLinkedin
-          data-cy="linkedin-link"
-        />
+        <FaLinkedin />
       </styled.a>
     </ContextProvider>
   </styled.div>
