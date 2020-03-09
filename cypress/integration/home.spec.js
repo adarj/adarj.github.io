@@ -11,9 +11,14 @@ describe('Home Page', () => {
   });
 
   it('Links resolve to correct address', () => {
-    cy.get('[data-cy=email-link]');
-    cy.get('[data-cy=github-link]');
-    cy.get('[data-cy=linkedin-link]');
+    cy.get('[data-cy=email-link]')
+      .should('have.attr', 'href', 'mailto:akildarjean@protonmail.com');
+
+    cy.get('[data-cy=github-link]')
+      .should('have.attr', 'href', 'https://github.com/adarj');
+
+    cy.get('[data-cy=linkedin-link]')
+      .should('have.attr', 'href', 'https://linkedin.com/in/adarj');
   });
 
   it('About Me displays correctly', () => {
