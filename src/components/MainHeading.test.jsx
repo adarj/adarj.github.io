@@ -4,6 +4,11 @@ import { shallow } from 'enzyme';
 import MainHeading from './MainHeading';
 import heroBg from '../images/hero-bg.jpg';
 
+const text = {
+  title: "John Doe",
+  subtitle: "Lorem Ipsum"
+};
+
 const links = {
   email: "mailto:john.doe@mail.com",
   github: "https://github.com",
@@ -12,10 +17,7 @@ const links = {
 
 describe('Main Heading', () => {
   it('renders correctly', () => {
-    const tree = shallow(<MainHeading image={heroBg}
-                                      title="John Doe"
-                                      subtitle="Lorem Ipsum"
-                                      {...links} />);
+    const tree = shallow(<MainHeading image={heroBg} {...text} {...links} />);
     expect(tree).toMatchSnapshot();
   });
 });

@@ -2,8 +2,11 @@ import React from 'react';
 import MainHeading from '../components/MainHeading';
 import heroBg from '../images/hero-bg.jpg';
 
-const title = "AKIL DARJEAN";
-const subtitle = "SOFTWARE DEVELOPER";
+const text = {
+  title: "AKIL DARJEAN",
+  subtitle: "SOFTWARE DEVELOPER"
+};
+
 const links = {
   email: "mailto:akildarjean@protonmail.com",
   github: "https://github.com/adarj",
@@ -11,10 +14,7 @@ const links = {
 };
 
 const Hero = () => (
-  <MainHeading image={heroBg}
-               title={title}
-               subtitle={subtitle}
-               {...links} />
+  <MainHeading image={heroBg} {...text} {...links} />
 );
 
 export default Hero;
