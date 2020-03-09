@@ -22,22 +22,22 @@ describe('Home Page', () => {
   });
 
   it('About Me displays correctly', () => {
-    cy.get('[data-cy=about-me-heading]').contains('ABOUT ME');
+    cy.get('[data-cy=about-me-heading]').contains('About Me');
   });
 
   it('Experience displays correctly', () => {
-    cy.get('[data-cy=experience-heading]').contains('EXPERIENCE');
+    cy.get('[data-cy=experience-heading]').contains('Experience');
   });
 
   it('Skills displays correctly', () => {
-    cy.get('[data-cy=skills-heading]').contains('SKILLS');
+    cy.get('[data-cy=skills-heading]').contains('Skills');
   });
 
   it('Certificates displays correctly', () => {
-    cy.get('[data-cy=certificates-heading]').contains('CERTIFICATES');
+    cy.get('[data-cy=certificates-heading]').contains('Certificates');
   });
 
   it('Projects displays correctly', () => {
-    cy.get('[data-cy=projects-heading]').contains('PROJECTS');
+    cy.get('[data-cy=projects-heading]').contains('Projects');
   });
 });
