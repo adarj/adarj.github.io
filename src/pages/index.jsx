@@ -4,7 +4,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 
 // Sections
-import Hero from '../sections/Hero';
+import MainHeading from '../sections/MainHeading';
 import AboutMe from '../sections/AboutMe';
 import Experience from '../sections/Experience';
 import Skills from '../sections/Skills';
@@ -16,7 +16,7 @@ const title = "Akil Darjean";
 export default () => (
   <>
     <Layout title={title} />
-    <Hero />
+    <MainHeading />
     <AboutMe />
     <Experience />
     <Skills />

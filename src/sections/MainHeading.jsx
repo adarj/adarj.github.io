@@ -13,8 +13,8 @@ const links = {
   linkedin: "https://linkedin.com/in/adarj"
 };
 
-const Header = () => (
-  <MainHeading image={heroBg} {...text} {...links} />
+const MainHeading = () => (
+  <Hero image={heroBg} {...text} {...links} />
 );
 
-export default Hero;
+export default MainHeading;
