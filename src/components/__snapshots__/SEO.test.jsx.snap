@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SEO renders correctly 1`] = `
+<HelmetWrapper
+  defer={true}
+  encodeSpecialCharacters={true}
+>
+  <html
+    lang="en"
+  />
+  <title>
+    John Doe
+  </title>
+</HelmetWrapper>
+`;
