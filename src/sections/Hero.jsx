@@ -11,7 +11,10 @@ const links = {
 };
 
 const Hero = () => (
-  <MainHeading image={heroBg} title={title} subtitle={subtitle} {...links} />
+  <MainHeading image={heroBg}
+               title={title}
+               subtitle={subtitle}
+               {...links} />
 );
 
 export default Hero;
