@@ -24,5 +24,34 @@ exports[`Main Heading renders correctly 1`] = `
       Lorem Ipsum
     </styled.h2>
   </styled.div>
+  <styled.div>
+    <ContextProvider
+      value={
+        Object {
+          "color": "white",
+          "size": "1.50em",
+        }
+      }
+    >
+      <styled.a
+        data-cy="email-link"
+        target="_blank"
+      >
+        <FaEnvelope />
+      </styled.a>
+      <styled.a
+        data-cy="github-link"
+        target="_blank"
+      >
+        <FaGithub />
+      </styled.a>
+      <styled.a
+        data-cy="linkedin-link"
+        target="_blank"
+      >
+        <FaLinkedin />
+      </styled.a>
+    </ContextProvider>
+  </styled.div>
 </LazyHero>
 `;
