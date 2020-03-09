@@ -1,9 +1,8 @@
 import React from 'react';
-import LazyHero from 'react-lazy-hero';
-
 import styled from 'styled-components';
 import tw from 'tailwind.macro';
 
+import LazyHero from 'react-lazy-hero';
 import { IconContext } from 'react-icons';
 import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 
