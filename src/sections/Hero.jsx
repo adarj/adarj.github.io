@@ -3,8 +3,8 @@ import MainHeading from '../components/MainHeading';
 import heroBg from '../images/hero-bg.jpg';
 
 const text = {
-  title: "AKIL DARJEAN",
-  subtitle: "SOFTWARE DEVELOPER"
+  title: "Akil Darjean",
+  subtitle: "Software Developer"
 };
 
 const links = {
