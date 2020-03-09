@@ -1,10 +1,11 @@
 import React from 'react';
 import Hero from 'react-lazy-hero';
-import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
-import { IconContext } from 'react-icons';
 
 import styled from 'styled-components';
 import tw from 'tailwind.macro';
+
+import { IconContext } from 'react-icons';
+import { FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const Title = styled.h1`${tw`uppercase text-white m-0 mb-6 text-6xl font-normal`};`;
 const Subtitle = styled.h2`${tw`uppercase text-white m-0 text-3xl`};`;
